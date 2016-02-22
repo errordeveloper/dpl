@@ -22,6 +22,7 @@ module DPL
     autoload :CodeDeploy,       'dpl/provider/code_deploy'
     autoload :Deis,             'dpl/provider/deis'
     autoload :Divshot,          'dpl/provider/divshot'
+    autoload :DockerRegistry,   'dpl/provider/docker_registry'
     autoload :DotCloud,         'dpl/provider/dot_cloud'
     autoload :ElasticBeanstalk, 'dpl/provider/elastic_beanstalk'
     autoload :EngineYard,       'dpl/provider/engine_yard'
